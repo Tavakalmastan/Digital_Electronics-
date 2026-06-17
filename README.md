@@ -8,7 +8,7 @@ This repository documents my learning journey covering Number Systems, Complemen
 
 ☑ Day 10 - Introduction to Digital Electronics, Number Systems and Complements
 
-☐ Day 11
+☑ Day 11 - Signed Number Representation, 1's Complement and 2's Complement Arithmetic
 
 ☐ Day 12
 
@@ -45,3 +45,18 @@ This repository documents my learning journey covering Number Systems, Complemen
 - Complements (1's, 2's, 7's, 8's, 9's, 10's, 15's, 16's)
 - Applications of Complements
 - Numerical Problem Solving
+
+
+### Day 11
+
+- Signed Number Representation
+- 1's Complement
+- 2's Complement
+- Binary Arithmetic
+- Complement Arithmetic
+- Overflow and Carry
+- Decimal Complements
+- Octal Complements
+- Hexadecimal Complements
+- Sign Extension
+- Numerical Problems
