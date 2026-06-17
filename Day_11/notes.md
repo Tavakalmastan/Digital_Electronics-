@@ -424,23 +424,8 @@ Using:
 MSB replication
 ```
 
----
 
-## Practical Learning Outcomes
-
-- Understood signed magnitude representation.
-- Learned 1's complement and 2's complement systems.
-- Performed binary subtraction using complements.
-- Understood carry and overflow handling.
-- Learned decimal complement arithmetic.
-- Practiced octal and hexadecimal complement operations.
-- Learned sign extension for signed numbers.
-- Understood why 2's complement is preferred in digital systems.
-- Solved multiple arithmetic problems using complement techniques.
-
----
-
-## Key Takeaways
+### Key Takeaways
 
 - 2's complement is the most commonly used signed number representation.
 - Complement arithmetic converts subtraction into addition.
