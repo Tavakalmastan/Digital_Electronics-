@@ -535,12 +535,8 @@ Steps:
 
 ## Key Takeaways
 
-1. Understood the hierarchy of digital systems from devices to complete systems and the role of combinational and sequential logic circuits.
-
-2. Learned Boolean algebra fundamentals, logic levels (positive and negative logic), and the operation of basic, universal, and application logic gates.
-
-3. Studied NAND and NOR gates as universal gates and learned how to realize Boolean expressions using only NAND or only NOR gates through the double complement method.
-
-4. Explored important coding techniques including Binary, Gray Code, Excess-3 Code, BCD representation, and parity generation for error detection.
-
-5. Gained knowledge of CMOS logic design, including CMOS inverter, CMOS NAND gate, CMOS NOR gate, and the implementation of XOR functions using NAND gates.
+- Understood the hierarchy of digital systems from devices to complete systems and the role of combinational and sequential logic circuits.
+- Learned Boolean algebra fundamentals, logic levels (positive and negative logic), and the operation of basic, universal, and application logic gates.
+- Studied NAND and NOR gates as universal gates and learned how to realize Boolean expressions using only NAND or only NOR gates through the double complement method.
+- Explored Binary, Gray Code, Excess-3 Code, BCD representation, and parity generation techniques used in digital systems.
+- Gained knowledge of CMOS logic design, including CMOS inverter, CMOS NAND gate, CMOS NOR gate, and XOR implementation using NAND gates.
