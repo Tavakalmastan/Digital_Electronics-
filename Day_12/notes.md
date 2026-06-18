@@ -533,22 +533,14 @@ Steps:
 
 ---
 
-## Learning Outcome
+## Key Takeaways
 
-After completing Day 12, I learned:
+1. Understood the hierarchy of digital systems from devices to complete systems and the role of combinational and sequential logic circuits.
 
-- Digital system hierarchy.
-- Combinational and sequential circuits.
-- Boolean algebra fundamentals.
-- Logic levels and switching equations.
-- Basic and universal logic gates.
-- NAND and NOR realizations.
-- Double complement technique.
-- Gray code and Excess-3 code.
-- BCD representation.
-- Parity generation.
-- Duality and self-dual functions.
-- Minterm and maxterm expansions.
-- CMOS inverter design.
-- CMOS NAND and NOR gate implementation.
-- XOR realization using NAND gates.
+2. Learned Boolean algebra fundamentals, logic levels (positive and negative logic), and the operation of basic, universal, and application logic gates.
+
+3. Studied NAND and NOR gates as universal gates and learned how to realize Boolean expressions using only NAND or only NOR gates through the double complement method.
+
+4. Explored important coding techniques including Binary, Gray Code, Excess-3 Code, BCD representation, and parity generation for error detection.
+
+5. Gained knowledge of CMOS logic design, including CMOS inverter, CMOS NAND gate, CMOS NOR gate, and the implementation of XOR functions using NAND gates.
