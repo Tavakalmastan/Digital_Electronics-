@@ -10,7 +10,7 @@ This repository documents my learning journey covering Number Systems, Complemen
 
 ☑ Day 11 - Signed Number Representation, 1's Complement and 2's Complement Arithmetic
 
-☐ Day 12
+☑ Day 12 - Digital System Hierarchy, Boolean Algebra, Logic Gates and Universal Gates
 
 ☐ Day 13
 
@@ -60,3 +60,16 @@ This repository documents my learning journey covering Number Systems, Complemen
 - Hexadecimal Complements
 - Sign Extension
 - Numerical Problems
+
+#### Day 12
+
+- Boolean Algebra Fundamentals
+- Logic Levels and Switching Theory
+- Basic Logic Gates (AND, OR, NOT)
+- Universal Gates (NAND, NOR)
+- XOR and XNOR Gates
+- NAND and NOR Realization
+- Binary, Gray, Excess-3 and BCD Codes
+- Parity Generation and Error Detection
+- Duality and Self-Dual Functions
+- CMOS Logic Basics
