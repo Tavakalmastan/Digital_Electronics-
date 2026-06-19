@@ -12,7 +12,7 @@ This repository documents my learning journey covering Number Systems, Complemen
 
 ☑ Day 12 - Digital System Hierarchy, Boolean Algebra, Logic Gates and Universal Gates
 
-☐ Day 13
+☑ Day 13 - Canonical Forms, Boolean Minimization and Karnaugh Maps (K-Map)
 
 ☐ Day 14
 
@@ -46,7 +46,6 @@ This repository documents my learning journey covering Number Systems, Complemen
 - Applications of Complements
 - Numerical Problem Solving
 
-
 ### Day 11
 
 - Signed Number Representation
@@ -73,3 +72,16 @@ This repository documents my learning journey covering Number Systems, Complemen
 - Parity Generation and Error Detection
 - Duality and Self-Dual Functions
 - CMOS Logic Basics
+
+#### Day 13
+
+- Duality and Self-Duality
+- Canonical SOP and POS Forms
+- Minterms and Maxterms
+- Truth Tables and Canonical Expansion
+- Boolean Minimization
+- Karnaugh Maps (K-Maps)
+- Gray Code and K-Map Grouping Rules
+- Prime and Essential Prime Implicants
+- XOR/XNOR Patterns in K-Maps
+- Logic Simplification Techniques
