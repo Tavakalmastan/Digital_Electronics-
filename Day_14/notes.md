@@ -2,8 +2,7 @@
 
 ## Objective
 
-Learn advanced Karnaugh Map (K-Map) simplification techniques, don't-care conditions, higher-order K-Maps, logic minimization methods, and the design of Binary ↔ Gray Code and BCD ↔ Excess-3 Code converters. The notes also covered practical implementation of combinational logic circuits. :contentReference[oaicite:0]{index=0}
-
+Learn advanced Karnaugh Map (K-Map) simplification techniques, don't-care conditions, higher-order K-Maps, logic minimization methods, and the design of Binary ↔ Gray Code and BCD ↔ Excess-3 Code converters.
 ---
 
 ## Topics Covered
