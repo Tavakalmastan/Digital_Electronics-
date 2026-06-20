@@ -14,7 +14,7 @@ This repository documents my learning journey covering Number Systems, Complemen
 
 ☑ Day 13 - Canonical Forms, Boolean Minimization and Karnaugh Maps (K-Map)
 
-☐ Day 14
+☑ Day 14 - Karnaugh Maps, Don't Care Conditions, Logic Minimization and Code Converters
 
 ☐ Day 15
 
@@ -85,3 +85,16 @@ This repository documents my learning journey covering Number Systems, Complemen
 - Prime and Essential Prime Implicants
 - XOR/XNOR Patterns in K-Maps
 - Logic Simplification Techniques
+
+### Day 14
+
+- Karnaugh Maps (K-Maps)
+- SOP and POS Simplification
+- Prime and Essential Prime Implicants
+- XOR/XNOR K-Map Patterns
+- Higher-Order K-Maps (5 & 6 Variables)
+- Logic Minimization Techniques
+- Binary ↔ Gray Code Conversion
+- Gray Code Applications
+- BCD to Excess-3 Converter
+- Combinational Circuit Design
