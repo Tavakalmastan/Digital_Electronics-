@@ -16,7 +16,7 @@ This repository documents my learning journey covering Number Systems, Complemen
 
 ☑ Day 14 - Karnaugh Maps, Don't Care Conditions, Logic Minimization and Code Converters
 
-☐ Day 15
+☑ Day 15 - Adders, Subtractors, Adder-Subtractor Circuits and MSI Circuits
 
 ☐ Day 16
 
@@ -98,3 +98,14 @@ This repository documents my learning journey covering Number Systems, Complemen
 - Gray Code Applications
 - BCD to Excess-3 Converter
 - Combinational Circuit Design
+
+### Day 15
+
+- Half Adder and Full Adder
+- Parallel and Ripple Carry Adders
+- Half Subtractor and Full Subtractor
+- Adder-Subtractor Circuits
+- Multiplexers (MUX)
+- Demultiplexers (DEMUX)
+- Encoders and Decoders
+- Comparators
