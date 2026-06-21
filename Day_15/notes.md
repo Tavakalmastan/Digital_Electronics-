@@ -237,6 +237,18 @@ A Full Subtractor performs subtraction considering borrow input.
 * Difference
 * Borrow
 
+### Truth Table
+
+A  B  Bin  Difference  Borrow
+0  0   0       0         0
+0  0   1       1         1
+0  1   0       1         1
+0  1   1       0         1
+1  0   0       1         0
+1  0   1       0         0
+1  1   0       0         0
+1  1   1       1         1
+
 ### Boolean Expressions
 
 Difference = A ⊕ B ⊕ Bin
@@ -377,6 +389,15 @@ Used to compare binary numbers.
 * 2-bit Comparator
 
 ---
+
+### Applications of MSI Circuits
+
+- Data Selection using Multiplexers
+- Data Distribution using Demultiplexers
+- Data Encoding and Decoding
+- Arithmetic and Logic Unit Design
+- Digital Communication Systems
+- Processor and Memory Interface Circuits
 
 ## Key Takeaways
 
