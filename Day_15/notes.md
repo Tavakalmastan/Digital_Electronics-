@@ -239,15 +239,16 @@ A Full Subtractor performs subtraction considering borrow input.
 
 ### Truth Table
 
-A  B  Bin  Difference  Borrow
-0  0   0       0         0
-0  0   1       1         1
-0  1   0       1         1
-0  1   1       0         1
-1  0   0       1         0
-1  0   1       0         0
-1  1   0       0         0
-1  1   1       1         1
+| A | B | Bin | Difference | Borrow |
+|---|---|-----|------------|--------|
+| 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 1 | 1 |
+| 0 | 1 | 0 | 1 | 1 |
+| 0 | 1 | 1 | 0 | 1 |
+| 1 | 0 | 0 | 1 | 0 |
+| 1 | 0 | 1 | 0 | 0 |
+| 1 | 1 | 0 | 0 | 0 |
+| 1 | 1 | 1 | 1 | 1 |
 
 ### Boolean Expressions
 
