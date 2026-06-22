@@ -18,7 +18,7 @@ This repository documents my learning journey covering Number Systems, Complemen
 
 ☑ Day 15 - Adders, Subtractors, Adder-Subtractor Circuits and MSI Circuits
 
-☐ Day 16
+☑ Day 16 - Multiplexers, Demultiplexers and Decoders
 
 ☐ Day 17
 
@@ -109,3 +109,17 @@ This repository documents my learning journey covering Number Systems, Complemen
 - Demultiplexers (DEMUX)
 - Encoders and Decoders
 - Comparators
+
+### Day 16
+
+- Multiplexers (MUX)
+- MUX-Based Logic and Function Realization
+- Full Adder Using MUX
+- Binary–Gray Code Conversion
+- MUX Tree Structures
+- Demultiplexers (DEMUX)
+- Function Realization Using DEMUX
+- Decoders and Applications
+- Active High/Low Decoders
+- Full Subtractor Using Decoder
+- MSI Circuit Configurations
