@@ -20,7 +20,7 @@ This repository documents my learning journey covering Number Systems, Complemen
 
 ☑ Day 16 - Multiplexers, Demultiplexers and Decoders
 
-☐ Day 17
+☑ Day 17 - Encoders, Priority Encoders and Comparators
 
 ☐ Day 18
 
@@ -123,3 +123,19 @@ This repository documents my learning journey covering Number Systems, Complemen
 - Active High/Low Decoders
 - Full Subtractor Using Decoder
 - MSI Circuit Configurations
+
+### Day 17
+
+- BCD to Excess-3 Code Conversion using Decoder
+- Decoder Configurations (3:8, 5:32)
+- Encoders and Data Compression
+- 4:2 Encoder Design
+- Higher Order Priority Encoder
+- Lower Order Priority Encoder
+- Octal to Binary Conversion using Priority Encoder
+- 1-bit Comparator Design
+- 2-bit Comparator Design
+- 2-bit Comparator using 1-bit Comparator
+- 4-bit Magnitude Comparator
+- 8-bit Comparator using IC 7485
+- Standard TTL Logic ICs and Applications
