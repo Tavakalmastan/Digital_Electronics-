@@ -22,7 +22,7 @@ This repository documents my learning journey covering Number Systems, Complemen
 
 ☑ Day 17 - Encoders, Priority Encoders and Comparators
 
-☐ Day 18
+☑ Day 18 - Sequential Logic Circuits, Latches and Flip-Flops
 
 ☐ Day 19
 
@@ -139,3 +139,14 @@ This repository documents my learning journey covering Number Systems, Complemen
 - 4-bit Magnitude Comparator
 - 8-bit Comparator using IC 7485
 - Standard TTL Logic ICs and Applications
+
+## Day 18
+
+- Sequential Logic Circuits and Basic Storage Elements
+- SR Latches using NOR and NAND Gates
+- Set, Reset, Memory and Violation States
+- Characteristic Tables and Unreliable Conditions
+- Clock Signal, Period, Frequency and Duty Cycle
+- Clocked SR Latch (Gated SR Latch)
+- D Latch, D Flip-Flop and Applications
+- JK Flip-Flop and Race Around Condition
