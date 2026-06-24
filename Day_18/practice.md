@@ -1,634 +1,529 @@
 # Day 18 - Practice Problems on Multiplexers and Logic Function Realization
 
+---
+
 ## Practice Problem 1
 
-### Given
+### Problem
 
-\[
-F(a,b,c,d)=\Sigma m(1,3,5,9,11,13)
-\]
-
-Implement using:
+Implement the following function using:
 
 - 2×1 Multiplexer
 - 4×1 Multiplexer
 
-### Simplification
-
-\[
-F=\bar a\bar b\bar d+\bar a b\bar d+a\bar b\bar d+ab\bar d+\bar abc+abc
-\]
-
-Grouping with respect to selector \(a\):
-
-\[
-F=\bar a(\bar b\bar d+b\bar d+bc)+a(b\bar d+bc+\bar b\bar d)
-\]
-
-### For 2×1 MUX
-
-Selector:
-
-\[
-S=a
-\]
-
-Inputs:
-
-\[
-I_0=\bar d
-\]
-
-\[
-I_1=c+\bar d
-\]
-
-Implementation:
-
-- Select line → a
-- \(I_0=\bar d\)
-- \(I_1=c+\bar d\)
+F(a,b,c,d) = Σm(1,3,5,9,11,13)
 
 ---
 
-### For 4×1 MUX
+### Expansion
 
-Selectors:
+F = a'b'd + a'bd + ab'd + abd + a'bc + abc
 
-\[
-S_1=a,\quad S_0=b
-\]
+---
 
-Data Inputs:
+### Using 2×1 MUX
 
-\[
-I_0=\bar d
-\]
+Choose:
 
-\[
-I_1=\bar d+c
-\]
+Select = a
 
-\[
-I_2=\bar d
-\]
+Then,
 
-\[
-I_3=\bar d+c
-\]
+F = a'(b'd + bd + bc) + a(b'd + bc + b'd)
 
-MUX realization completed using K-map derived inputs.
+Simplifying,
+
+I0 = d'
+
+I1 = c + d'
+
+#### Final Connections
+
+- Select = a
+- I0 = d'
+- I1 = c + d'
+
+Output = F
+
+---
+
+### Using 4×1 MUX
+
+Choose:
+
+- S1 = a
+- S0 = b
+
+From K-Map,
+
+- I0 = d'
+- I1 = c + d'
+- I2 = d'
+- I3 = c + d'
+
+#### Final Connections
+
+| Select Lines | Value |
+|-------------|--------|
+| S1 | a |
+| S0 | b |
+
+| Data Input | Value |
+|------------|--------|
+| I0 | d' |
+| I1 | c + d' |
+| I2 | d' |
+| I3 | c + d' |
+
+Output = F
 
 ---
 
 ## Practice Problem 2
 
-### Design Requirement
+### Problem
 
-Design a combinational logic circuit using four 2×1 multiplexers.
-
-Control input:
+Design a combinational circuit using four 2×1 multiplexers such that:
 
 - Control = 1 → Half Adder
 - Control = 0 → Half Subtractor
 
-No complemented inputs available.
+No complemented inputs are available.
+
+---
 
 ### Half Adder
 
-Outputs:
+Sum = a XOR b
 
-\[
-Sum=a\oplus b
-\]
-
-\[
-Carry=ab
-\]
-
-Truth Table
+Carry = ab
 
 | a | b | Sum | Carry |
 |---|---|-----|-------|
-|0|0|0|0|
-|0|1|1|0|
-|1|0|1|0|
-|1|1|0|1|
+| 0 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 0 |
+| 1 | 0 | 1 | 0 |
+| 1 | 1 | 0 | 1 |
 
 ---
 
 ### Half Subtractor
 
-Outputs:
+Difference = a XOR b
 
-\[
-Difference=a\oplus b
-\]
-
-\[
-Borrow=\bar a b
-\]
-
-Truth Table
+Borrow = a'b
 
 | a | b | Difference | Borrow |
 |---|---|------------|--------|
-|0|0|0|0|
-|0|1|1|1|
-|1|0|1|0|
-|1|1|0|0|
+| 0 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 1 |
+| 1 | 0 | 1 | 0 |
+| 1 | 1 | 0 | 0 |
 
 ---
 
 ### Observation
 
-\[
-Sum = Difference = a\oplus b
-\]
+Common Output:
 
-\[
-Carry=ab
-\]
+Sum = Difference = a XOR b
 
-\[
-Borrow=\bar a b
-\]
+Other Outputs:
 
-Control line selects:
+Carry = ab
 
-- 1 → Carry
-- 0 → Borrow
+Borrow = a'b
 
-Final output generated through fourth 2×1 MUX.
+Use Control Signal:
+
+- Control = 1 → Carry
+- Control = 0 → Borrow
+
+Final output selected through a 2×1 MUX.
 
 ---
 
 ## Practice Problem 3
 
-### Determine Output of MUX Circuit
+### Problem
 
-Given cascaded 2×1 MUX network.
+Find the output of the given cascaded 2×1 MUX circuit.
 
-First MUX:
+---
 
-Inputs:
-
-\[
-I_0=x
-\]
-
-\[
-I_1=\bar y
-\]
-
-Selector:
-
-\[
-z
-\]
-
-Output:
-
-\[
-\bar z x+z\bar y
-\]
-
-Second MUX:
+### First MUX
 
 Inputs:
 
-\[
-I_0=(\bar z x+z\bar y)
-\]
+- I0 = x
+- I1 = y'
 
-\[
-I_1=x
-\]
-
-Selector:
-
-\[
-y
-\]
+Select = z
 
 Output:
 
-\[
-f=\bar y(\bar z x+z\bar y)+xy
-\]
+M = z'x + zy'
 
-Expanding:
+---
 
-\[
-f=x\bar y\bar z+z\bar y+xy
-\]
+### Second MUX
 
-\[
-f=\bar y(x\bar z+z)+xy
-\]
+Inputs:
 
-Using:
+- I0 = M
+- I1 = x
 
-\[
-x\bar z+z=x+z
-\]
+Select = y
 
-\[
-f=\bar y(x+z)+xy
-\]
+Output:
 
-\[
-f=x\bar y+\bar yz+xy
-\]
+f = y'(z'x + zy') + xy
 
-\[
-f=x(\bar y+y)+\bar yz
-\]
+Expanding,
 
-\[
-\boxed{f=x+\bar yz}
-\]
+f = xy'z' + zy' + xy
+
+Taking y' common,
+
+f = y'(xz' + z) + xy
+
+Using Boolean identity:
+
+xz' + z = x + z
+
+Therefore,
+
+f = y'(x + z) + xy
+
+= xy' + y'z + xy
+
+= x(y' + y) + y'z
+
+### Final Answer
+
+f = x + y'z
 
 ---
 
 ## Practice Problem 4
 
-### 74151 (8-to-1 MUX)
+### Problem
 
-Question:
+For a 74151 (8×1 Multiplexer), determine the select inputs required so that output Y becomes a copy of input I5.
 
-Determine status of select inputs
-
-\[
-S_2,S_1,S_0
-\]
-
-such that output Y becomes a copy of input \(I_5\).
+---
 
 ### Solution
 
-Binary equivalent of input 5:
+Input number:
 
-\[
-5=(101)_2
-\]
+I5
 
-Therefore
+Binary representation of 5:
 
-\[
-\boxed{S_2=1,\;S_1=0,\;S_0=1}
-\]
+5 = 101
+
+Therefore,
+
+| Select Line | Value |
+|------------|--------|
+| S2 | 1 |
+| S1 | 0 |
+| S0 | 1 |
+
+### Final Answer
+
+S2 = 1
+
+S1 = 0
+
+S0 = 1
 
 ---
 
 ## Practice Problem 5
 
-### 16×1 MUX and 1×16 DEMUX
+### Problem
 
-Input applied:
+A 16×1 MUX is connected to a 1×16 DEMUX.
 
-\[
-I_{13}
-\]
+Input applied at:
+
+I13
+
+Find the output line number n.
+
+---
+
+### Solution
 
 MUX select inputs:
 
-\[
-A=1,\quad B=1,\quad C=0,\quad D=1
-\]
+A = 1
 
-Hence:
+B = 1
 
-\[
-1101_2=13
-\]
+C = 0
 
-DEMUX select lines generated from logic network:
+D = 1
 
-\[
-S_3S_2S_1S_0
-=
-0111
-\]
+Therefore,
 
-Binary equivalent:
+1101₂ = 13
 
-\[
-0111_2=7
-\]
+DEMUX select inputs evaluate to:
 
-Therefore
+0111₂
 
-\[
-\boxed{n=7}
-\]
+Decimal equivalent:
+
+0111₂ = 7
+
+### Final Answer
+
+n = 7
 
 ---
 
 ## Practice Problem 6
 
-### Simplify MUX Output
+### Problem
 
-Expression:
+Simplify the output expression.
 
-\[
-\bar x x+xz
-\]
+---
 
-Since
+Given:
 
-\[
-\bar xx=0
-\]
+f = x'x + xz
 
-\[
-=0+xz
-\]
+Since,
 
-\[
-=xz
-\]
+x'x = 0
 
-Further realization:
+Therefore,
 
-\[
-\bar y(xz)+zy
-\]
+f = xz
 
-\[
-=xz\bar y+zy
-\]
+Further,
 
-\[
-=z(x\bar y+y)
-\]
+f = y'(xz) + zy
 
-Using:
+= xzy' + zy
 
-\[
-x\bar y+y=x+y
-\]
+Taking z common,
 
-Hence
+= z(xy' + y)
 
-\[
-\boxed{z(x+y)}
-\]
+Using identity:
+
+xy' + y = x + y
+
+### Final Answer
+
+f = z(x + y)
 
 ---
 
 ## Practice Problem 7
 
-### Simplify Expression
+### Problem
 
-\[
-\bar x y+\bar x\bar y+x\bar y
-\]
+Simplify:
 
-Grouping:
+f = x'y + x'y' + xy'
 
-\[
-=\bar x(y+\bar y)+x\bar y
-\]
+---
 
-\[
-=\bar x+x\bar y
-\]
+### Solution
 
-Using absorption:
+Taking x' common,
 
-\[
-=\bar x+\bar y
-\]
+f = x'(y + y') + xy'
 
-Alternative derivation:
+= x' + xy'
 
-\[
-\bar xy+xy+x\bar y
-\]
+Using absorption law,
 
-\[
-=y(\bar x+x)+x\bar y
-\]
+= x' + y'
 
-\[
-=y+x\bar y
-\]
+### Final Answer
 
-\[
-=x+y
-\]
-
-Final simplified expression depends on corresponding realization.
+f = x' + y'
 
 ---
 
 ## Practice Problem 8
 
-### 4×1 MUX Circuit
+### Problem
+
+Find the output of the 4×1 MUX.
 
 Inputs:
 
-\[
-I_3=1
-\]
-
-\[
-I_2=1
-\]
-
-\[
-I_1=1
-\]
-
-\[
-I_0=C
-\]
+- I3 = 1
+- I2 = 1
+- I1 = 1
+- I0 = C
 
 Selectors:
 
-\[
-S_1=A,\quad S_0=B
-\]
+- S1 = A
+- S0 = B
 
-Output:
+---
 
-\[
-Q=
-\bar A\bar BC+
-\bar A B+
-A\bar B+
-AB
-\]
+### MUX Equation
 
-Simplifying:
+Q = A'B'C + A'B + AB' + AB
 
-\[
-Q=\bar A(B+C)+A(B+\bar B)
-\]
+Taking A' common,
 
-\[
-Q=\bar A(B+C)+A
-\]
+Q = A'(B + C) + A(B + B')
 
-Using absorption:
+Q = A'(B + C) + A
 
-\[
-Q=A+B+C
-\]
+Using absorption,
 
-\[
-\boxed{Q=A+B+C}
-\]
+### Final Answer
+
+Q = A + B + C
 
 ---
 
 ## Practice Problem 9
 
-### Two Cascaded 4×1 Multiplexers
+### Problem
+
+Find the output of the cascaded 4×1 MUX circuit.
+
+---
+
+### Solution
 
 First MUX output:
 
-\[
-Y=A\oplus B
-\]
+Y = A XOR B
 
-Using identity:
+Y = A'B + AB'
 
-\[
-A\oplus B=\bar AB+A\bar B
-\]
+Second MUX output:
 
-Second MUX realization gives:
+X = (A XOR B)C + (A XOR B)'C'
 
-\[
-X=(A\oplus B)C+\overline{(A\oplus B)}\bar C
-\]
+Expanding,
 
-Expanding:
+X = ABC + A'B'C + A'BC' + AB'C'
 
-\[
-X=ABC+\bar A\bar BC+\bar AB\bar C+A\bar B\bar C
-\]
+### Final Answer
 
-\[
-\boxed{X=ABC+\bar A\bar BC+\bar AB\bar C+A\bar B\bar C}
-\]
+X = ABC + A'B'C + A'BC' + AB'C'
 
 ---
 
 ## Practice Problem 10
 
-### 4×1 MUX Function
+### Problem
+
+Find the logic function implemented by the given 4×1 MUX.
+
+---
+
+Given:
+
+| Input | Value |
+|--------|--------|
+| I0 | 0 |
+| I1 | 1 |
+| I2 | 1 |
+| I3 | 0 |
 
 Selectors:
 
-\[
-S_1=P,\quad S_0=Q
-\]
+- S1 = P
+- S0 = Q
 
-From data input assignments:
+---
 
-\[
-I_0=0
-\]
+### Solution
 
-\[
-I_1=1
-\]
+MUX equation:
 
-\[
-I_2=1
-\]
+F = P'Q + PQ'
 
-\[
-I_3=0
-\]
+### Final Answer
 
-Output:
-
-\[
-F=\bar PQ+P\bar Q
-\]
-
-Therefore
-
-\[
-\boxed{F=P\oplus Q}
-\]
+F = P XOR Q
 
 ---
 
 ## Practice Problem 11
 
-### 8×1 MUX used for Full Adder Carry Generation
+### Problem
 
-Observation:
+An 8×1 MUX is used to generate the carry output of a Full Adder.
 
-Full Adder Carry output:
+Why is an 8×1 MUX sufficient?
 
-\[
-C_{out}=AB+BC_{in}+AC_{in}
-\]
+---
 
-Since three variables are involved,
+### Solution
 
-Number of data inputs required:
+Full Adder Carry:
 
-\[
-2^3=8
-\]
+Carry = AB + BCin + ACin
 
-Hence 8×1 MUX can realize Full Adder Carry.
+Number of variables:
+
+- A
+- B
+- Cin
+
+Total variables = 3
+
+Required MUX inputs:
+
+2³ = 8
+
+### Final Answer
+
+An 8×1 MUX is sufficient because the carry output depends on 3 variables.
 
 ---
 
 ## Practice Problem 12
 
-### 4×1 MUX with Inputs
+### Problem
 
-\[
-I_3=P
-\]
+Find the output expression Z for the given 4×1 MUX.
 
-\[
-I_2=PQ
-\]
+Inputs:
 
-\[
-I_1=P
-\]
-
-\[
-I_0=P+\bar Q
-\]
+- I3 = P
+- I2 = PQ
+- I1 = P
+- I0 = P + Q'
 
 Selectors:
 
-\[
-R \; (MSB)
-\]
+- R = MSB
+- S = LSB
 
-\[
-S \; (LSB)
-\]
+---
+
+### Solution
 
 MUX equation:
 
-\[
-Z=
-\bar R\bar S(P+\bar Q)
-+
-\bar RS(P)
-+
-R\bar S(PQ)
-+
-RSP
-\]
+Z = R'S'(P + Q')
+  + R'S(P)
+  + RS'(PQ)
+  + RSP
 
-After simplification:
+Simplifying,
 
-\[
-\boxed{Z=P\bar R+PS+PQ+\bar R\bar S\bar Q}
-\]
+Z = PR' + PS + PQ + R'S'Q'
 
+### Final Answer
+
+Z = PR' + PS + PQ + R'S'Q'
