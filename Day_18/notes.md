@@ -2,7 +2,7 @@
 
 ## Overview
 
-On Day 18, I studied Sequential Logic Circuits and Basic Storage Elements. The session covered SR Latches using NOR and NAND gates, characteristic tables, memory state, set, reset and violation conditions, clock signals, gated SR latches, D latches, JK latches, race-around condition and D Flip-Flops. I also learned clock parameters such as period, frequency and duty cycle.
+Today, I studied Sequential Logic Circuits and Basic Storage Elements. The session covered SR Latches using NOR and NAND gates, characteristic tables, memory state, set, reset and violation conditions, clock signals, gated SR latches, D latches, JK latches, race-around condition and D Flip-Flops. I also learned clock parameters such as period, frequency and duty cycle.
 
 ---
 
