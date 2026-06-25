@@ -1,4 +1,4 @@
-# Day 19/90 - Practice Session (Hazards, Decoder & MUX Implementations)
+# Day 19 - Practice Session (Hazards, Decoder & MUX Implementations)
 
 ## Overview
 
