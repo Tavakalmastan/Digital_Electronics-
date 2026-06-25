@@ -24,7 +24,7 @@ This repository documents my learning journey covering Number Systems, Complemen
 
 ☑ Day 18 - Sequential Logic Circuits, Latches and Flip-Flops
 
-☐ Day 19
+☑ Day 19 - Master-Slave Flip-Flops, Edge Triggered Flip-Flops and Characteristic Equations
 
 ☐ Day 20
 
@@ -150,3 +150,12 @@ This repository documents my learning journey covering Number Systems, Complemen
 - Clocked SR Latch (Gated SR Latch)
 - D Latch, D Flip-Flop and Applications
 - JK Flip-Flop and Race Around Condition
+
+### Day 19
+
+- Master-Slave JK, SR, D and T Flip-Flops
+- Positive and Negative Edge Triggered D Flip-Flops
+- Race Around Condition and its Elimination
+- Characteristic Tables and Characteristic Equations
+- Excitation Tables for SR, JK, D and T Flip-Flops
+- Setup Time and Hold Time
