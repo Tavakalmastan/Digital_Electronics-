@@ -26,7 +26,7 @@ This repository documents my learning journey covering Number Systems, Complemen
 
 ☑ Day 19 - Master-Slave Flip-Flops, Edge Triggered Flip-Flops and Characteristic Equations
 
-☐ Day 20
+☑ Day 20 - Flip-Flop Conversions, Asynchronous Inputs, Counters and Counter Design
 
 ## Topics Covered
 
@@ -159,3 +159,13 @@ This repository documents my learning journey covering Number Systems, Complemen
 - Characteristic Tables and Characteristic Equations
 - Excitation Tables for SR, JK, D and T Flip-Flops
 - Setup Time and Hold Time
+
+### Day 20
+
+- Flip-Flop Conversion (SR to JK)
+- Characteristic Tables and Excitation Tables
+- Asynchronous Inputs (Preset and Clear)
+- Positive Edge Triggered D Flip-Flop
+- Asynchronous (Ripple) and Synchronous Counters
+- Ring Counter and Johnson Counter
+- Mod-N Counters, Frequency Division, State Diagrams and Counter Design
