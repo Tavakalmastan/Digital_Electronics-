@@ -167,5 +167,4 @@ This repository documents my learning journey covering Number Systems, Complemen
 - Asynchronous Inputs (Preset and Clear)
 - Positive Edge Triggered D Flip-Flop
 - Asynchronous (Ripple) and Synchronous Counters
-- Ring Counter and Johnson Counter
 - Mod-N Counters, Frequency Division, State Diagrams and Counter Design
