@@ -28,6 +28,8 @@ This repository documents my learning journey covering Number Systems, Complemen
 
 ☑ Day 20 - Flip-Flop Conversions, Asynchronous Inputs, Counters and Counter Design
 
+☑ Day 21 - Asynchronous Counters, Synchronous Counters and Gray Code Counter Design
+
 ## Topics Covered
 
 ### Day 10
@@ -168,3 +170,14 @@ This repository documents my learning journey covering Number Systems, Complemen
 - Positive Edge Triggered D Flip-Flop
 - Asynchronous (Ripple) and Synchronous Counters
 - Mod-N Counters, Frequency Division, State Diagrams and Counter Design
+
+### Day 21
+
+- Asynchronous (Ripple) Counter and Mod-10 Counter Design
+- Timing Diagram, Frequency Division and Propagation Delay
+- Limitations of Asynchronous Counters (Glitches)
+- Synchronous Counter Design Methodology
+- Mod-8 Synchronous Counter using JK Flip-Flops
+- State Tables, State Diagrams and Transition Tables
+- 3-Bit Gray Code Counter using D Flip-Flops
+- K-Map Simplification and Logic Circuit Implementation
