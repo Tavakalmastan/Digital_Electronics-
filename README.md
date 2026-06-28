@@ -30,6 +30,8 @@ This repository documents my learning journey covering Number Systems, Complemen
 
 ☑ Day 21 - Asynchronous Counters, Synchronous Counters and Gray Code Counter Design
 
+☑ Day 22 - Registers, Shift Registers, Ring Counter and Johnson Counter
+
 ## Topics Covered
 
 ### Day 10
@@ -181,3 +183,14 @@ This repository documents my learning journey covering Number Systems, Complemen
 - State Tables, State Diagrams and Transition Tables
 - 3-Bit Gray Code Counter using D Flip-Flops
 - K-Map Simplification and Logic Circuit Implementation
+
+### Day 22
+
+- Registers & Flip-Flop Timing Parameters
+- Register Operations
+- SISO, SIPO, PISO & PIPO Shift Registers
+- Universal Shift Register
+- Ring Counter
+- Johnson (Twisted Ring) Counter
+- Timing Diagrams & State Analysis
+- Frequency Division & Duty Cycle
