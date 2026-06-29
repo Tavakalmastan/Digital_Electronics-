@@ -32,6 +32,8 @@ This repository documents my learning journey covering Number Systems, Complemen
 
 ☑ Day 22 - Registers, Shift Registers, Ring Counter and Johnson Counter
 
+☑ Day 23 - Clock Generation, Mod-N Counters, Edge Detectors & Transmission Gates
+
 ## Topics Covered
 
 ### Day 10
@@ -194,3 +196,14 @@ This repository documents my learning journey covering Number Systems, Complemen
 - Johnson (Twisted Ring) Counter
 - Timing Diagrams & State Analysis
 - Frequency Division & Duty Cycle
+
+### Day 23
+
+- Clock Generation & Flip-Flop Timing Parameters
+- Frequency Division using Mod-N Counters
+- Mod-3, Mod-5 & Mod-6 Counter Design
+- 50% Duty Cycle Generation Techniques
+- State Diagrams, Transition Tables & K-Map Design
+- Positive, Negative & Either Edge Detectors
+- Combinational & Sequential Edge Detector Circuits
+- Transmission Gate Operation & Applications
