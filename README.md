@@ -34,6 +34,8 @@ This repository documents my learning journey covering Number Systems, Complemen
 
 ☑ Day 23 - Clock Generation, Mod-N Counters, Edge Detectors & Transmission Gates
 
+☑ Day 24 - Finite State Machines (FSM), Mealy & Moore Models, Sequence Detector Design
+
 ## Topics Covered
 
 ### Day 10
@@ -207,3 +209,14 @@ This repository documents my learning journey covering Number Systems, Complemen
 - Positive, Negative & Either Edge Detectors
 - Combinational & Sequential Edge Detector Circuits
 - Transmission Gate Operation & Applications
+
+### Day 24
+
+- Finite State Machine (FSM) Fundamentals
+- Implicit & Explicit State Machines
+- Mealy & Moore FSM Models
+- Up/Down Mod-5 Counter using FSM
+- State Diagrams, Transition Tables & State Assignment
+- Sequence Detector Design (1101 Pattern)
+- Overlapping & Non-Overlapping Sequence Detection
+- K-Map Simplification & Logic Circuit Implementation
