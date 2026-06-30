@@ -1,4 +1,4 @@
-# Day 23 – Learning Session
+# Day 23 – Learning Session: Clock Generation, Mod-N Counters & Edge Detectors
 
 ## Objective
 
