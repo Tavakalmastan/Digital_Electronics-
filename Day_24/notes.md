@@ -1,4 +1,4 @@
-# Day – Learning Session
+# Day 24 – Learning Session: Finite State Machines (FSM) & Sequence Detector Design
 
 ## Objective
 
