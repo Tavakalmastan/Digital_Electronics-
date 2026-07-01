@@ -36,6 +36,8 @@ This repository documents my learning journey covering Number Systems, Complemen
 
 ☑ Day 24 - Finite State Machines (FSM), Mealy & Moore Models, Sequence Detector Design
 
+☑ Day 25 - Advanced FSM Design, Mealy & Moore Machines and Sequence Detector Implementation
+
 ## Topics Covered
 
 ### Day 10
@@ -220,3 +222,14 @@ This repository documents my learning journey covering Number Systems, Complemen
 - Sequence Detector Design (1101 Pattern)
 - Overlapping & Non-Overlapping Sequence Detection
 - K-Map Simplification & Logic Circuit Implementation
+
+### Day 25
+
+- Mealy & Moore Finite State Machine (FSM) Design
+- MOD-5 & MOD-6 Counter Design using FSM
+- FSM State Diagrams, Transition Tables & State Assignment
+- Overlapping & Non-Overlapping Sequence Detector Design
+- Pattern Detection (111, 1001 & 10110 Sequences)
+- FSM Implementation using JK Flip-Flops & Logic Optimization
+- Circuit Optimization, State Reduction & Flip-Flop Calculation
+- Sequential Circuit Analysis & FSM-Based Problem Solving
