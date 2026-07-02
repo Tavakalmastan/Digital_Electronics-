@@ -38,6 +38,8 @@ This repository documents my learning journey covering Number Systems, Complemen
 
 ☑ Day 25 - Advanced FSM Design, Mealy & Moore Machines and Sequence Detector Implementation
 
+☑ Day 26 - Digital Design Revision (Part 1): Number Systems, Base Conversion and Complement Arithmetic
+
 ## Topics Covered
 
 ### Day 10
@@ -233,3 +235,14 @@ This repository documents my learning journey covering Number Systems, Complemen
 - FSM Implementation using JK Flip-Flops & Logic Optimization
 - Circuit Optimization, State Reduction & Flip-Flop Calculation
 - Sequential Circuit Analysis & FSM-Based Problem Solving
+
+### Day 26
+
+- Number Systems & Positional Representation
+- Binary, Octal, Decimal & Hexadecimal Conversions
+- Unknown Radix (Base) Determination
+- Hexadecimal Arithmetic (Addition & Subtraction)
+- Binary Arithmetic & Base Conversion Practice
+- 1's Complement & 2's Complement Techniques
+- Signed Binary Representation & 2's Complement Subtraction
+- Cascaded Complement Systems & Numerical Problem Solving
