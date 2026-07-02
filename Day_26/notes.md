@@ -164,19 +164,105 @@ Focused on improving calculation speed and reducing conversion errors.
 
 ---
 
+## Practice & Revision (Continuation)
+
+This session continued the revision of combinational logic design with a strong focus on multiplexers, buffers, tri-state logic, Boolean simplification, and decoder-based implementations. Multiple implementation techniques were practiced to strengthen circuit design and expression simplification skills.
+
+---
+
 ## Topics Revised
 
-- Number Systems
-- Positional Number Representation
-- Binary, Octal, Decimal & Hexadecimal Conversions
-- Unknown Base (Radix) Problems
-- Hexadecimal Addition & Subtraction
-- Fractional Number Conversion
-- Binary Arithmetic
-- 1's Complement
-- 2's Complement
-- Signed Binary Representation
-- Binary Subtraction using 2's Complement
-- Cascaded Complement System
-- Base Conversion Shortcuts
-- Digital Arithmetic Practice
+### 1. Multiplexer-Based Logic Design
+- Reviewed the realization of Boolean functions using multiplexers.
+- Implemented logic functions using:
+  - 2×1 Multiplexer
+  - 4×1 Multiplexer
+  - 8×1 Multiplexer
+- Practiced selection line assignment and input mapping.
+
+---
+
+### 2. Full Adder using Multiplexers
+- Implemented a Full Adder using:
+  - 2×1 MUX
+  - 4×1 MUX
+  - 8×1 MUX
+- Derived Sum and Carry outputs using minterm expansion.
+- Verified truth table mapping with MUX inputs.
+
+---
+
+### 3. Buffer and Tri-State Buffer
+- Revised normal buffer operation.
+- Studied Tri-State Buffer.
+- Active High Enable.
+- Active Low Enable.
+- High-Impedance (Z) state.
+- Applications of tri-state buffers in shared bus systems.
+
+---
+
+### 4. Binary to Gray Code Conversion
+- Implemented a 3-bit Binary to Gray converter.
+- Derived simplified Boolean expressions.
+- Implemented the circuit using only 2×1 multiplexers.
+
+---
+
+### 5. Multiplexer Cascading
+- Learned how larger multiplexers can be realized using smaller multiplexers.
+- Implemented:
+  - 4×1 MUX using 2×1 MUX
+  - Higher-order MUX structures through cascading.
+
+---
+
+### 6. Boolean Algebra Simplification
+- Solved several Boolean expression simplification problems.
+- Applied distributive, associative, absorption, and De Morgan's laws.
+- Reduced complex expressions into minimum logic implementations.
+
+---
+
+### 7. K-Map Based Logic Optimization
+- Solved multiple K-Map problems.
+- Converted SOP expressions into simplified logic.
+- Identified Essential Prime Implicants (EPI).
+- Obtained minimum-cost logic expressions.
+
+---
+
+### 8. Hazard Analysis
+- Identified static hazards in combinational circuits.
+- Added redundant terms to eliminate glitches.
+- Verified hazard-free circuit implementation.
+
+---
+
+### 9. Multi-Output Logic Circuit Design
+- Determined multiple output functions from a given circuit.
+- Derived:
+  - F₁
+  - F₂
+  - F₃
+- Simplified each output independently using Boolean algebra and K-Maps.
+
+---
+
+### 10. Decoder-Based Logic Design
+- Implemented Boolean functions using a 4×16 decoder.
+- Generated required outputs by combining decoder outputs with logic gates.
+- Derived simplified expressions from decoder implementation.
+
+---
+
+## Key Learning Outcomes
+
+- Improved confidence in MUX-based logic implementation.
+- Understood Full Adder realization using multiplexers.
+- Revised tri-state buffer behavior and enable control.
+- Practiced Binary-to-Gray code conversion.
+- Learned multiplexer cascading techniques.
+- Strengthened Boolean algebra simplification skills.
+- Performed K-Map minimization and hazard removal.
+- Designed logic circuits using decoders and multi-output functions.
